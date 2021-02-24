@@ -61,11 +61,20 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
     
 
 # Quotes
-
-<block>
+    
+    #Blockquote
+<blockquote>
 <p> The entire quote and the person who said it is wrapped in block tags 
 where the p tags are used inside the block quote element to show what was said 
-and the the auther/person being quoted is cited at the end</p> 
+and the the author/person being quoted is cited at the end. </p> 
 
 <cite> -Jen Simmons </cites>
+</blockquote>
+
+    #Inline
+<p> Jen said, <q> the q element is an inline element which is wrapped around 
+phrases of text. The q element changes depending on the lanuage to make the quote
+grammatically correct. </q> </p> 
+
+
     
