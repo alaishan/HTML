@@ -8,12 +8,12 @@ Name: HTML l6
 Creds; Jen Simmons and CodePen
 """
 
-# Paragraphs 
+<H3>Paragraphs</H3>
 
 <p> To indicate a single paragraph, an opening p tag is used at the beginning of the 
 text and then at the end of the paragraph, a closing p tag is used to close the paragraph like so </p>
 
-#Headlines 
+<H3>Headlines </H3>
 
 <H1> This is the largest and most pronounced headline </H1>
 <H2> This is the second largest. Could be for subheadings </H2>
@@ -22,7 +22,7 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
 <H5> This is the second smallest headline font size </H3> 
 <H6> This is the smallest headline font size </H6> 
 
-# Bold and Italics 
+<H3>Bold and Italics</H3>
 
   #italics
 <em> tag is used to wrap something that should be verbally emphasized </em>
@@ -32,7 +32,7 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
 <strong> element conveys importance and/or seriousness, conveys meaning </strong>
 <b> element is a way of styling or marking something, no alternative mood </b> 
 
-# Lists 
+<H3>Lists</H3>
 
   #Undordered List 
 <ul>
@@ -60,7 +60,7 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
 </dl>        
     
 
-# Quotes
+<H3>Quotes</H3>
     
     #Blockquote
 <blockquote>
@@ -77,7 +77,7 @@ phrases of text. The q element changes depending on the lanuage to make the quot
 grammatically correct. </q> </p> 
 
 
-# Dates and Time 
+<H3>Dates and Time</H3>
 
     #Dates
 
