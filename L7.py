@@ -125,8 +125,17 @@ so the browser pays attention
         to the spacing and breaks in the text. 
  </pre>
  
- #pre and code are frequently combined to display a block of code in a browser
+ #pre and code are frequently combined to display a block of code in a browser<br>
  
+ To show how to code a list in HTML on the browser use the following:<br>
  
- 
+<pre>
+<code>
+&lt;ul&gt;
+    &lt;li&gt; item &lt;/li&gt;
+    &lt;li&gt; item &lt;/li&gt;
+    &lt;li&gt; item &lt;/li&gt;
+&lt;/ul&gt; 
+</code>
+<pre> 
  
