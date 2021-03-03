@@ -24,31 +24,31 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
 
 <H3>Bold and Italics</H3>
 
-  #italics
+  <H4>#italics</H4>
 <em> tag is used to wrap something that should be verbally emphasized </em>
 <i> tag is used to wrap the name of something, or something with no special meaning </i>
 
-  #bold
+  <H4>#bold</H4>
 <strong> element conveys importance and/or seriousness, conveys meaning </strong>
 <b> element is a way of styling or marking something, no alternative mood </b> 
 
 <H3>Lists</H3>
 
-  #Undordered List 
+  <H4>#Undordered List</H4>
 <ul>
     <li> inidcates list item </li>
     <li> inidcated by bullets </li>
     <li> tab/space indentation is for human comprehension only </li>
 </ul> 
 
-  #Odered List
+  <H4>#Odered List</H4>
 <ol>
     <li> inidcates list item </li>
     <li> inidcated by numbers </li>
     <li> tab/space indentation is for human comprehension only </li>    
 </ol>
 
-  #Definition List
+  <H4>#Definition List</H4>
 <dl>
     <dt> Definition Term 1 </dt>
         <dd> definition description of term 1 </dd> 
@@ -62,7 +62,7 @@ text and then at the end of the paragraph, a closing p tag is used to close the 
 
 <H3>Quotes</H3>
     
-    #Blockquote
+    <H4>#Blockquote</H4>
 <blockquote>
 <p> The entire quote and the person who said it is wrapped in block tags 
 where the p tags are used inside the block quote element to show what was said 
@@ -71,7 +71,7 @@ and the the author/person being quoted is cited at the end. </p>
 <cite> -Jen Simmons </cites>
 </blockquote>
 
-    #Inline
+    <H4>#Inline</H4>
 <p> Jen said, <q> the q element is an inline element which is wrapped around 
 phrases of text. The q element changes depending on the lanuage to make the quote
 grammatically correct. </q> </p> 
@@ -79,43 +79,47 @@ grammatically correct. </q> </p>
 
 <H3>Dates and Time</H3>
 
-    #Dates
+    <H4>#Dates</H4>
 
 <time> 8 May 2025 </time> 
-
+<br>
 <time datetime="2025-05-08">8 May 2025</time> 
-
+<br>
 ## Machine readable format dor dates is YYYY-MM-DD
-
-    #Time 
+<br>
+    <H4>#Time</H4>
 <time datetime="20:15 - 05:00">8:15pm in New York</time> 
-
-## Machines wants a 24hr clock format for times hh-mm-ss.ddd+-hh:mm 
+<br>
+## Machines wants a 24hr clock format for times hh-mm-ss.ddd+-hh:mm <br>
 ## where the +-hh:mm is the time difference from Grenwhich time 
-
-    #Date and Time Together 
+<br>
+    <H4>#Date and Time Together</H4>
 <time datetime="2020-11-04 19:00-05:00"> Wednesday 4 November 2020 at 7pm in New York</time>
-
+<br>
 
 <H3>Code, pre and br</H3> 
 <p>
-    #Code
+    <H4>#Code</H4>
     
 <p> We can write <code>{colour:green;}</code> in our CSS, and it will apply to 
 anything marked up as an <code>&lt;H4&gt;</code> element </p>
 
+<pre>
+<code>
 #&lt; < entity 
 #&gt; > entity
+</code>
+</pre>
 </p>
 
-    #br
+    <H4>#br</H4>
 <p>
 This element gives us a way to <br>
 break a line <br>
 </p>
 <cite> - Jen Simmons </cite>
 
-    #pre
+    <H4>#pre</H4>
 <pre> the <code>&lt;pre&gt;</code> tag
                 keeps the 
 irregular spacing 
